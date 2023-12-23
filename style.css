@@ -1,1 +1,134 @@
-.
+/* header/navlinks */
+.nav-section {
+  display: flex;
+  background-color: rgb(191, 178, 138);
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.top {
+  background-color: rgb(49, 72, 118);
+  padding: 10px;
+  width: 200px;
+  color:antiquewhite;
+}
+
+.navlinks {
+  display: flex;
+  justify-content: end;
+  gap: 50px;
+}
+
+#box1, #box2, #box3 {
+  background-color: rgb(77, 111, 179);
+  color:antiquewhite;
+}
+
+.boxes, .signup-butt {
+  display: flex;
+  padding: 10px;
+  width: 100px;
+}
+
+/* signup section */
+.signup {
+  display:flex;
+  background-color: rgb(213, 209, 174);
+  padding: 60px;
+  width: auto;
+  justify-content: space-between;
+}
+
+.signup-butt {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(49, 72, 118);
+  color: antiquewhite;
+}
+
+.text {
+  display: flex;
+  background-color: rgb(77, 111, 179);
+  height: 150px; width: 300px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: antiquewhite;
+}
+
+/* image */
+.imagediv {
+  display: flex;
+  width: auto; height: 250px;
+  background-color: rgb(77, 111, 179);
+  padding: 3px;
+}
+
+.ducks {
+  display: flex;
+  height: 100%; width: 100%;
+  object-fit: scale-down;
+}
+
+/* infolink section */
+.infolink {
+  display: flex;
+  background-color: rgb(49, 72, 118);
+  height: 200px; width: auto;
+  gap: 80px;
+  padding: 10px;
+  color:antiquewhite;
+  justify-content: center; align-items: center;
+}
+
+.butts {
+  display: flex;
+  height: 150px; width: 150px;
+}
+
+.duckies {
+  display: flex;
+  height: 100%; width: 100%;
+  object-fit: fill;
+}
+
+.infotext {
+  display: flex;
+  align-content: end;
+  flex-direction: column;
+}
+
+/* text section */
+.textdiv {
+  display: flex;
+  background-color: rgb(213, 209, 174);
+  height: 150px; width: auto;
+  padding: 50px;
+  justify-content: center;
+  color: rgb(19, 27, 44);
+}
+
+#botsign {
+  display: flex;
+  background-color: rgb(191, 178, 138);
+  padding: 50px;
+  justify-content: space-around;
+  color: rgb(19, 27, 44);
+}
+
+#butt5 {
+  display: flex;
+  padding: 10px;
+}
+
+.bottum {
+  background-color: rgb(49, 72, 118);
+  color: antiquewhite;
+}
+
+/* footer */
+.foot-section {
+  background-color: rgb(49, 72, 118);
+  height: 50px;
+  color: antiquewhite;
+}
